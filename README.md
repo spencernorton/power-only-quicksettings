@@ -6,19 +6,19 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/spencercnorton/norvi-os"><img alt="Part of NorviOS" src="https://img.shields.io/badge/NorviOS-component-FD8024.svg"></a>
-  <a href="https://github.com/spencercnorton/power-only-quicksettings/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/spencercnorton/power-only-quicksettings/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/spencercnorton/power-only-quicksettings/tags"><img alt="Latest release" src="https://img.shields.io/github/v/tag/spencercnorton/power-only-quicksettings?label=release&sort=semver"></a>
+  <a href="https://github.com/spencernorton/norvi-os"><img alt="Part of NorviOS" src="https://img.shields.io/badge/NorviOS-component-FD8024.svg"></a>
+  <a href="https://github.com/spencernorton/power-only-quicksettings/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/spencernorton/power-only-quicksettings/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/spencernorton/power-only-quicksettings/tags"><img alt="Latest release" src="https://img.shields.io/github/v/tag/spencercnorton/power-only-quicksettings?label=release&sort=semver"></a>
   <a href="#install"><img alt="Install for GNOME Shell" src="https://img.shields.io/badge/install-GNOME%20Shell-4a86cf.svg"></a>
   <a href="LICENSE"><img alt="Licence" src="https://img.shields.io/badge/licence-GPL--3.0--or--later-blue.svg"></a>
   <a href="https://buy.stripe.com/8x26oH2U44f65TRe574wM04"><img alt="Donate" src="https://img.shields.io/badge/donate-Stripe-635bff.svg?logo=stripe&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <img alt="The system menu open from the single power icon in the top bar: volume, network, power mode, dark style and do not disturb." src="https://raw.githubusercontent.com/spencercnorton/norvi-os/main/docs/screenshots/quick-settings.png" width="445">
+  <img alt="The system menu open from the single power icon in the top bar: volume, network, power mode, dark style and do not disturb." src="https://raw.githubusercontent.com/spencernorton/norvi-os/main/docs/screenshots/quick-settings.png" width="445">
 </p>
 
-The screenshot comes from the [NorviOS](https://github.com/spencercnorton/norvi-os) desktop, captured on a fresh Ubuntu 26.04 virtual machine with a demo account.
+The screenshot comes from the [NorviOS](https://github.com/spencernorton/norvi-os) desktop, captured on a fresh Ubuntu 26.04 virtual machine with a demo account.
 
 GNOME Shell's top bar shows a status icon for the network, volume, battery, microphone and more. This extension keeps only one: a power icon. The Quick Settings panel behind it is unchanged, and a click still opens all of it. It supports GNOME Shell 48, 49 and 50.
 
@@ -34,7 +34,7 @@ GNOME Shell's top bar shows a status icon for the network, volume, battery, micr
 
 ### GNOME Shell — the release zip
 
-Download `power-only-quicksettings.shell-extension.zip` and `SHA256SUMS.txt` from the [latest release](https://github.com/spencercnorton/power-only-quicksettings/releases/latest), then:
+Download `power-only-quicksettings.shell-extension.zip` and `SHA256SUMS.txt` from the [latest release](https://github.com/spencernorton/power-only-quicksettings/releases/latest), then:
 
 ```bash
 sha256sum --check --ignore-missing SHA256SUMS.txt
@@ -60,8 +60,8 @@ The extension is not on extensions.gnome.org.
 
 ## Contributing and support
 
-- Bugs and feature requests: [open an issue](https://github.com/spencercnorton/power-only-quicksettings/issues/new/choose). Questions: [Discussions](https://github.com/spencercnorton/power-only-quicksettings/discussions).
-- Security reports: [private vulnerability reporting](https://github.com/spencercnorton/power-only-quicksettings/security/advisories/new). See [SECURITY.md](SECURITY.md). There is no e-mail address; that is deliberate.
+- Bugs and feature requests: [open an issue](https://github.com/spencernorton/power-only-quicksettings/issues/new/choose). Questions: [Discussions](https://github.com/spencernorton/power-only-quicksettings/discussions).
+- Security reports: [private vulnerability reporting](https://github.com/spencernorton/power-only-quicksettings/security/advisories/new). See [SECURITY.md](SECURITY.md). There is no e-mail address; that is deliberate.
 - Pull requests are welcome; read [CONTRIBUTING.md](CONTRIBUTING.md) first. Changes are reviewed and merged on GitHub, then shipped in tagged releases.
 - If this saves you time, you can [support its development](https://buy.stripe.com/8x26oH2U44f65TRe574wM04).
 
